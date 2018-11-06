@@ -1,0 +1,131 @@
+.home-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1050px;
+    height: 607px;
+    margin-left: -525px;
+    margin-top: -303px;
+    border-radius: 8px;
+    background: #f4f3f2 url(images/home-bg.png) no-repeat;
+    box-shadow: 0 0 30px rgba(69,49,132,.4);
+}
+.home-left {
+    width: 240px;
+}
+.home-left, .home-right {
+    display: inline-block;
+    float: left;
+}
+.home-left .logo {
+    text-align: center;
+    padding: 48px 0;
+}
+.home-left .logo i {
+    display: block;
+    margin: 0 auto;
+    width: 81px;
+    height: 81px;
+    background: url(images/pick.png) no-repeat;
+}
+.home-left .logo p {
+    color: #eee1fd;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.left-menu a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 32px;
+    font-size: 16px;
+    color: #8b6da7;
+}
+.left-menu a.active {
+    color: #dbbafb;
+    background: #1e142e;
+}
+.home-right {
+    width: 810px;
+}
+.home-left, .home-right {
+    display: inline-block;
+    float: left;
+}
+.home-right .home-title {
+    height: 72px;
+    line-height: 72px;
+    background: #fff;
+    border-top-right-radius: 8px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #322049;
+}
+.home-right .right-content {
+    margin: 30px;
+    border-radius: 8px;
+    background: #fff;
+}
+.right-content .room-main {
+    padding: 30px;
+    height: 170px;
+}
+.right-content .img-box {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+}
+.right-content .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.right-content .text-box {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 495px;
+}
+.right-content .text-box .name {
+    color: #333;
+    font-size: 18px;
+}
+.right-content .text-box .name b {
+    margin-left: -7px;
+}
+.right-content .text-box .room-id {
+    color: #999;
+    font-size: 14px;
+    padding: 12px 0 24px;
+}
+.right-content .text-box .notice-tit {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.right-content .text-box .notice {
+    color: #bbb;
+    font-size: 12px;
+    line-height: 20px;
+}
+.right-content .text-box .into-room {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 102px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    background: #785dca;
+    display: inline-block;
+}
